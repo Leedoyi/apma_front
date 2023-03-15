@@ -1,0 +1,464 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
+
+/* font-family: 'Courgette', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Shadows Into Light', cursive 
+font-family: 'Gowun Dodum', sans-serif;*/
+
+.hideClass{
+    width:0; height:0;
+    font-size:0; line-height:0;
+    position:absolute;
+    visibility:hidden;
+  }
+
+
+div#wrap{
+  position: relative;
+  width:100%;
+
+}
+
+#headerWrap{
+ position:fixed;
+ left:0; top:0;
+ width:100%;
+ background-color:rgba(34, 34, 34, 0.9);
+ z-index:9999;
+}
+
+header{
+  width:1400px;
+  margin:0 auto;
+
+  /* height: 100px; */
+  /* background-color: rgba(34, 34, 34, 0.8); */
+
+}
+header>h1{float: left;}
+
+header>h1>a{
+  font:60px  'Shadows Into Light', cursive ;
+  color: #fff;
+}
+header>nav{
+  float:right;
+position:relative;
+}
+
+header>nav>ul{
+   margin-right:200px;
+
+}
+header>nav>ul#nl{
+
+  margin-right:400px;
+  display: flex;
+  padding-top: 30px;
+
+}
+
+header>nav>ul#nl>li:nth-child(1)>a:hover{
+  color:rgb(218, 191, 44);
+  text-decoration: underline;
+}
+header>nav>ul#nl>li:nth-child(2)>a:hover{
+  color:#fff;
+  text-decoration: underline;
+}
+header>nav>ul#nl>li:nth-child(3)>a:hover{
+  color:rgb(101, 182, 69);
+  text-decoration: underline;
+}
+header>nav>ul#nl>li:nth-child(4)>a:hover{
+  color:rgb(134, 66, 180);
+  text-decoration: underline;
+}
+header>nav>ul#nl>li:nth-child(5)>a:hover{
+  color:rgb(224, 102, 64);
+  text-decoration: underline;
+}
+header>nav>ul#nl>li:nth-child(6)>a:hover{
+  color:rgb(60, 160, 206);
+  text-decoration: underline;
+}
+
+
+header>nav>ul#nr{
+position:absolute;
+right:0;
+top:30px;
+margin-right: 50px;
+display:flex;
+ 
+}
+
+header>nav>ul>li{
+  margin-left: 30px;
+}
+
+header>nav>ul>li>a{
+  font:19px 'Shadows Into Light', cursive ;
+  color: #fff;
+
+}
+
+/* galley */
+
+#box01{
+
+
+}
+#box01 div{
+  
+  height: 650px;
+  position:relative;
+}
+
+#box01 div>ul{
+ 
+  display:flex;
+
+
+
+}
+
+#box01 div>ul>li{
+
+  /* width: 100%;
+  height:650px; */
+
+  
+
+}
+
+
+#box01 div img{
+    /* width:1903px; */
+ 
+    width: 95rem;
+    height:650px;
+ 
+
+}
+
+
+#box01 div>dl{
+  width:100%;
+  position: absolute;
+  top:300px;
+  margin:0 auto;
+  font:bold 30px 'Shadows Into Light', cursive ;
+  color:#fff;
+  z-index: 900;
+ 
+}
+
+#box01 div>dl>dt{
+  font-size: 60px;
+  text-align: center;
+ 
+}
+#box01 div>dl>dd{
+  /* z-index: 9999; */
+  margin:0 auto;
+  text-align: center;
+
+}
+
+
+#box01 .prev{
+  width:30px;
+  height:46px;
+  position:absolute;
+  left:30px;
+  top:50%;
+  /* background-color:red; */
+  z-index:9999;
+}
+#box01 .prev>span{
+  width:30px;
+  height:3px;
+  background-color:#fff;
+  position: absolute;
+}
+
+#box01 .prev>span:nth-child(1){
+  top:10px;
+  left:5px;
+  transform: rotate(135deg) translateX(0%);
+}
+#box01 .prev>span:nth-child(2){
+  top:29px;
+  left:5px;
+  transform: rotate(45deg) translateX(0%);
+}
+#box01 .next{
+  width:30px;
+  height:46px;
+  right:30px;
+  top:50%;
+  position:absolute;
+  /* background-color:red; */
+  z-index:9999;
+}
+#box01 .next>span{
+  width:30px;
+  height:3px;
+  background-color:#fff;
+  position: absolute;
+}
+
+#box01 .next>span:nth-child(1){
+  top:10px;
+  right:5px;
+  transform: rotate(-135deg) translateX(0%);
+}
+#box01 .next>span:nth-child(2){
+  top:29px;
+  right:5px;
+  transform: rotate(-45deg) translateX(0%);
+}
+.round{
+  position: absolute;
+  top:100px; left:100px;
+}
+.round>span{
+  width:5px;
+  height:5px;
+  background-color:white;
+  z-index: 99999px;
+  border-radius:180px;
+}
+/* section */
+
+
+#box02{
+background:url('../image/back.png') repeat-x center -607px;
+  /* background:#b6b6b6 no-repeat 0px 0px fixed;
+  background:#575757 no-repeat 0px 1058px fixed; */
+}
+
+
+#box02>section{
+  /* background-color: blue; */
+  width:1146px;
+  height:2590px;
+  margin: 0 auto;
+
+}
+#box02 figure{
+  clear:both;
+}
+
+#box02 figure>img{
+
+}
+
+#box02 figure#GOGH{
+  overflow: hidden;
+  width:1146px;
+  height: 800px;
+
+}
+#box02 figure#GOGH>img{
+  width:500px;
+  height:600px;
+  margin-top:200px;
+  float: left;
+}
+
+#box02 figure#GOGH dl{
+  width:496px; 
+  height:600px;
+  float:right;
+  margin-top:400px;
+;
+}
+
+#box02 figure#GOGH dl>dt{
+  font:50px  'Gowun Dodum', sans-serif;
+  color:black;
+}
+#box02 figure#GOGH dl>dd{
+  font:16px/25px 나눔고딕,san-serif;
+  color:black;
+}
+#box02 figure#Phy{
+  margin-top:200px;
+  overflow:hidden;
+  width:1146px;
+  height: 810px;
+}
+#box02 figure#Phy>img{
+
+  width:500px;
+  height:800px;
+  float:right;
+
+}
+#box02 figure#Phy>figcaption{
+  float:left;
+  width:496px;
+  height:810px;
+}
+
+#box02 figure#Phy dl{
+  margin-top: 200px;
+  margin-right: 50px;
+  
+
+}
+#box02 figure#Phy dl>dt{
+ 
+  font:40px  'Gowun Dodum', sans-serif;
+  color:black;
+}
+#box02 figure#Phy dl>dd{
+  
+  font:16px/25px 나눔고딕,san-serif;
+  color:#fff;
+}
+
+#box02 figure#Phy dd>span{
+  color:black;
+}
+
+#box02 figure#Slap{
+  width:1146px;
+  height:530px;
+}
+#box02 figure#Slap>img{
+  width:650px;
+  height:380px;
+  margin-top:200px;
+  float:left;
+}
+#box02 figure#Slap dl{
+  float:right;
+  width:400px;
+  height: 380px;
+  margin-top:250px;
+}
+#box02 figure#Slap dl>dt{
+  font:40px  'Gowun Dodum', sans-serif;
+  color:#fff;
+}
+#box02 figure#Slap dl>dd{
+  font:16px/25px 나눔고딕,san-serif;
+  color:#fff;
+}
+
+#box03{
+  width:100%;
+  height:615px;
+  background-color: #b6b6b6;
+}
+
+#box03>aside{
+  width:1146px;
+  height:615px;
+  margin:0 auto;
+}
+
+#box03 ul{
+  display: flex;
+
+}
+#box03 ul>li{}
+
+#box03 ul>li>a>img{
+  width:250px;
+  height:250px;
+  margin-top: 182px;
+  margin-right:50px;
+}
+
+#box03 ul p{
+  margin-left:85px;
+  margin-top:5px;
+  font: bold 20px 'Shadows Into Light', cursive;
+
+}
+
+#footerWrap{
+  position: absolute;
+  background-color: rgb(34, 34, 34);
+}
+#footerWrap>footer{
+ 
+}
+
+#footerWrap div#fu{
+  overflow: hidden;
+  width:1590px;
+  margin: 0 auto;
+ padding-top:30px;
+  
+}
+#footerWrap div#ful{
+  float:left;
+  width:500px;
+  padding-bottom:3px;
+}
+
+#footerWrap div#ful>dl{
+  padding-bottom:3px;
+  font:15px 나눔고딕,'sans-serif';
+}
+
+
+#footerWrap div#ful dt{
+   float:left;
+   clear: both;
+   color:#666;
+
+}
+#footerWrap div#ful dd{
+  color:#666;
+}
+
+#footerWrap div#fur{
+
+  float:right;
+  display: flex;
+  color:#666;
+
+}
+
+#footerWrap div#fur>dl{
+  margin-left:20px;
+}
+
+#footerWrap div#fur>dl>dt{
+  padding-bottom:5px;
+}
+
+#footerWrap div#fd{
+  width:1590px;
+  height:50px;
+  margin: 0 auto;
+}
+#footerWrap div#fd>ul{}
+#footerWrap div#fd li{
+  float:left;
+  
+} 
+#footerWrap div#fd li>a{
+  display: flex;
+  margin-right: 5px;
+}
+
+#footerWrap div#fd small{
+  float:right;
+  font:15px 나눔고딕,'sans-serif';
+  color:#666;
+}
+
+
